@@ -21,3 +21,22 @@ nav li a
     text-decoration: none;
     color: greenyellow;
 }
+
+/* nested menu styles */
+
+nav li .dropdown
+{
+
+    display: none;
+    position: absolute;
+    background-color: lightslategray;
+    padding-left: 10px;
+
+
+}
+nav li:hover> .dropdown
+{
+
+    display: block;
+
+}
